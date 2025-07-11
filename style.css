@@ -5,45 +5,65 @@
 }
 
 .banner{
-       width: 100vw; /* full viewport width */
-    height: 100vh; /* full viewport height */
+    width: 100%;
+    height: 640px;
     background-image: url(Assets/Hero-bg.png);
-    background-size: cover;
-    background-position: center;
+    
 }
 
-.inter-normal {
-  font-family: "Inter", sans-serif;
-   font-style: normal;
-}
-.raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-}
 .navber{
-   width: 1300px;
-   margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 50px;
     
-    height: 151px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.navber h1{
-    width: 99px;
-    height: 51px;
-   
-    font-size: 34px;
+.navber h3{
+    padding-left: 60px;
+    font-size: 54px;
     color:#4E47FF ;
 }
 .btn1{
-    padding:10px 20px;
-    border-radius: 5px;
-    width: 132px;
-    font-size: 16px;
-    background-color: #4E47FF;
-    text-align: center;
+    background-color:#4E47FF;
+    padding: 2px 45px ;
     color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    
 }
+
+.banner-title{
+    
+    
+    display: flex;
+    flex-flow: column;
+    height: 237px;
+    width: 905px;
+    margin-left: 255px;
+    margin-top: 400px;
+    text-align: center;
+    
+    font-size: 32px;
+    
+}
+.btn2 {
+    padding:18px 10px;
+    background-color: #4E47FF;
+    margin-left: 380px;
+    display:block;
+    width: 205px;
+    margin-top: 20px;
+    
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+
 
