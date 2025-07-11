@@ -206,5 +206,47 @@ body{
 .pic img{
     border-radius: 50%;
 }
+.reday-to-focus{
+   width: 1180px;
+    height: 697px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+     margin: 120px auto;
+}
+.reday-to-focus h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+.reday-to-focus p{
+    margin-top: 20px;
+}
+.reday-to-focus img{
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    margin: 20px auto;
+}
 
+.btn4 {
+    padding:18px 10px;
+    background-color: #4E47FF;
+    margin-top: 20px;
+   
+   
+    width: 205px;
+    margin-left: 450px;
+    
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
 
