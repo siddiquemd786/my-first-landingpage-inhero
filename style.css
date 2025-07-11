@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
+    
+}
+body{
+     background-color: #F5F8FF;
 }
 
 .banner{
@@ -149,6 +154,57 @@
 .product-view p{
     color: #000000;
     font-size: 20px;
+}
+
+.review{
+    width: 1180px;
+    height: 342px;
+    
+   
+    
+    margin: 120px auto;
+}
+.review h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+   
+    
+
+}
+.card{
+    margin-top: 50px;
+    width: 367px;
+    height: 243px;
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.star{
+    margin-top: 10px;
+    display: flex; gap: 10px;
+}
+.card h2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.card p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.pic{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    
+}
+.pic img{
+    border-radius: 50%;
 }
 
 
