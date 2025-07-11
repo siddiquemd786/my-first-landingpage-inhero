@@ -55,8 +55,7 @@ body{
     flex-flow: column;
     height: 237px;
     width: 905px;
-    margin-left: 255px;
-    margin-top: 400px;
+   margin: 420px auto;
     text-align: center;
     
     font-size: 32px;
@@ -296,8 +295,11 @@ body{
    
     
 }
-#Email{
-    margin-bottom: 40px;
+
+.mylabel{
+    display: inline-block;
+    margin-top: 30px;
+    font-weight: 600;
 }
 
 textarea{
@@ -337,7 +339,11 @@ footer{
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 428px;}
+    height: 428px;
+    background-color: #FFFFFF;
+    margin-top: 100px;
+}
+
     
 
 .last-part ul{
@@ -349,7 +355,7 @@ footer{
     width: 531px;
     height: 221px;
     text-align: center;
-    background-color: #F5F8FF;
+   
 }
 .footerpart h1{
     font-size: 100px;
@@ -378,6 +384,7 @@ button:hover{
     box-shadow: 4px 4px 10px gray;
     color: rgb(160, 220, 92);
     transition: all 0.3s ease;
+    font-size: 16px;
 
 
 }
