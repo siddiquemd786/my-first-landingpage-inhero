@@ -8,6 +8,15 @@
 body{
      background-color: #F5F8FF;
 }
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  
+  font-style: normal;
+}
 
 .banner{
     width: 100%;
@@ -77,7 +86,7 @@ body{
     display: flex;
     justify-content: space-between;
     
-    margin: 120px auto;
+    margin: 180px auto;
 }
 
 .btn3 {
@@ -281,7 +290,7 @@ body{
     border-radius:10px ;
      border: none;
     outline: none;
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 20px;
     margin-top: 5px;
    
@@ -298,7 +307,7 @@ textarea{
     border-radius: 10px;
      border: none;
     outline: none;
-    padding: 10px;
+    padding: 10px 20px;
     resize: none;
     font-size:20px;
 }
@@ -328,7 +337,7 @@ footer{
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 428px;
+    height: 428px;}
     
 
 .last-part ul{
@@ -349,7 +358,7 @@ footer{
 .footerpart p{
     width: 531px;
     text-align: center;
-    font-size: 19px;
+    font-size: 16px;
     color: #8987A1;
 }
 .last-part ul li{
@@ -364,4 +373,11 @@ footer{
      
 }
 
+button:hover{
+    background-color: #7774af;
+    box-shadow: 4px 4px 10px gray;
+    color: rgb(160, 220, 92);
+    transition: all 0.3s ease;
 
+
+}
